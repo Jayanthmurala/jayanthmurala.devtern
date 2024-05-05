@@ -1,0 +1,45 @@
+.home-page {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.menu li {
+    display: block;
+}
+
+.menu li a, .menu li button {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover, .menu li button:hover {
+    background-color: #444;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-text h1 {
+    font-size: 36px;
+}
