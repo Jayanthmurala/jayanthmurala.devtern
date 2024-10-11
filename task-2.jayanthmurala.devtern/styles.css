@@ -1,0 +1,126 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 32px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icon:hover {
+    text-decoration: underline;
+}
+
+.houses-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.houses-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.house {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.house img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.house-info {
+    padding: 20px;
+}
+
+.house-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #27ae60; /* Green */
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+footer {
+    background-color: #333; /* Dark grey */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
